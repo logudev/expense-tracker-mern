@@ -1,0 +1,26 @@
+{
+  "name": "expense-tracker-mern",
+  "version": "1.0.0",
+  "description": "App URL: https://logu-expenz.netlify.app/",
+  "main": "server.js",
+  "scripts": {
+    "setup": "npm i && cd client && npm i && npm run build",
+    "start": "npm run setup && node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Logaraja D",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
