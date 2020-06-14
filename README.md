@@ -1,14 +1,18 @@
 App URL:
-https://logu-expenz.netlify.app/
+https://logu-expenz-mern.herokuapp.com/
 
-Netlify URL:
-https://app.netlify.com/sites/logu-expenz/overview
+Heroku Deployment URL:
+https://dashboard.heroku.com/apps/logu-expenz-mern
 
 Github:
 https://github.com/logudev/expense-tracker-react
 
 App Details:
-Plain frontend app, which stores data in-memory, data will vanish if you reload.
+Full Stack MERN app.
+* Frontend: Library - React, State Management - React Context
+* Backend: Runtime - Node, Framework - Express
+* DB - MongoDB Atlas - Cloud version - https://cloud.mongodb.com/v2/5ed3e9cb677be50ab1b40708#clusters
 
-Tech:
-React, React Context, React Hooks
+API Spec: To be updated
+
+
